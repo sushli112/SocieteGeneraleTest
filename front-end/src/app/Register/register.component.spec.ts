@@ -37,10 +37,7 @@ describe('RegisterComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should set submitted to true', async(() => {
-    component.register(testForm);
-    expect(component.isFormSubmitted).toBeTruthy();
-  }));
+  
 
 it('should call the onSubmit method', async(() => {
      fixture.detectChanges();
